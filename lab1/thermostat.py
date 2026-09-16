@@ -26,7 +26,7 @@ async def environment():
             print(f"temp({temp}) has increased")
         else:
             temp -= random.randint(1, 2)
-            print(f"temp({temp}) has desreased")
+            print(f"temp({temp}) has decreased")
         await asyncio.sleep(1)
 
 async def main():
